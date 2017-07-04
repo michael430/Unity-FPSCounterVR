@@ -1,5 +1,5 @@
 # Unity-FPSCounterVR
-FPS Counter for VR
+A Simple FPS Counter for VR. Using 3D TextMesh in world space.
 
 ### Usage: ###
 1. Copy the file to your unity project. (include the meta file)
