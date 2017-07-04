@@ -1,6 +1,4 @@
-// using System;
 using UnityEngine;
-// using UnityEngine.UI;
 
 namespace UnityStandardAssets.Utility
 {
@@ -10,7 +8,7 @@ namespace UnityStandardAssets.Utility
         private TextMesh m_Text;
         private MeshRenderer m_Renderer;
 
-        [SerializeField][Tooltip("Interval at which FPS is recalculated. Higher value mean take longer time to update.")]
+        [SerializeField][Tooltip("Interval at which FPS is recalculated. Higher value means take longer time to update.")]
         private float frameRateUpdateInterval = 0.5f;
         public float frameRate { get { return lastFPSValue; } }
         private float lastFrameRateUpdateTime = 0;
